@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  box-sizing: border-box;
+}
+
+.navbarone {
+  border: 2px solid white;
+  border-radius: 20px;
+  display: block;
+  position: relative;
+  justify-content: space-between;
+}
+.logo {
+  display: inline-flex;
+  align-items: center;
+  font-family: "calligraffitti", cursive;
+}
+.text-logo {
+  font-family: "Calligraffitti", cursive;
+}
+.logobrand {
+  width: 70px;
+}
+.searches {
+  display: inline-flex;
+  align-items: center;
+  font-size: 80px;
+  background-color: transparent;
+  margin-left: 250px;
+  justify-content: center;
+  width: 170px;
+  height: 40px;
+  
+}
+.inputt{
+  padding: 19px ;
+  align-items: center;
+  border-radius: 10px;
+  
+}
+.loupe {
+  display: inline-flex;
+  align-items: center;
+  width: 30px;
+  margin-bottom: 38px;
+  border-radius: 40px;
+}
+
+.icons {
+  display: inline-flex;
+  align-items: center;
+  float: right;
+  align-items: flex-end;
+  margin: 10px;
+  font-family: "calligraffitti", cursive;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.swiper {
+  width: 80%;
+  height: 300px;
+}
+.icons img {
+  width: 40px;
+  border-radius: 13px;
+}
+.secondnavbar {
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  top: 0px;
+  z-index: 9999999;
+  background-color: white;
+  color: black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.homemenu {
+  background-color: white;
+  font-size: 22px;
+  float: left;
+  margin: 7px;
+  margin: left 20px;
+  margin-right: 2px;
+}
+.beds {
+  background-color: white;
+  margin-top: 7px;
+  margin-left: 80px;
+  font-size: 20px;
+}
+.deco {
+  background-color: white;
+  margin-top: 7px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.salon {
+  background-color: white;
+  margin-top: 7px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.cuisine {
+  background-color: white;
+  margin-top: 7px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.jardin {
+  background-color: white;
+  margin-top: 7px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.tapis {
+  background-color: white;
+  margin-top: 7px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+h1:hover {
+  color: salmon;
+}
+h4 {
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-family: "Quicksand", sans-serif;
+  color: indianred;
+}
+.swiper {
+  width: 100%;
+
+  border-radius: 12px;
+}
+
+.box {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+.box img {
+  width: 100%;
+}
+.box-img {
+  width: 100%;
+
+  object-fit: cover;
+  transform: scale(1.05);
+}
+.box-img:hover {
+  transform: scale(1);
+  transition: all 0.4s linear;
+}
+.container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  transform: translateY(0.5%);
+}
+.txt {
+  white-space: nowrap;
+  font-size: 40px;
+  font-weight: bold;
+  color: indianred;
+  background-color: bisque;
+  animation: scrolltxt 5s linear infinite;
+}
+@keyframes scrolltxt {
+  0% {
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.main {
+  width: 80%;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 5px burlywood;
+}
+.cards .card {
+  background-color: azure;
+  width: 350px;
+  height: 400px;
+  color: black;
+  font-size: 22px;
+  padding: 32px;
+  border-radius: 15px;
+  margin: 10px;
+  margin-bottom: 15px;
+  margin-top: 35px;
+  box-shadow: 0 0 11px paleturquoise;
+  display: none;
+}
+.cards .card:nth-child(1),
+.cards .card:nth-child(2),
+.cards .card:nth-child(3) {
+  display: inline-block;
+}
+h5 {
+  background-color: transparent;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.cards .card img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid indianred;
+  border-radius: 12px;
+}
+.loadmorebtn {
+  width: 100px;
+  height: 60px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  margin-right: 50%;
+  color: black;
+  font-size: 15px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.loadmorebtn:hover {
+  background-color: indianred;
+}
+.loadmorebtn-text {
+  background-color: indianred;
+  font-size: 10px;
+}
+
+.bottom {
+  background-color: rgb(250, 179, 179);
+  width: 100%;
+  min-height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.para {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  justify-content: space-between;
+  margin-top: 1px;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: "Calligraffitti", cursive;
+  word-spacing: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.para p {
+  background-color: transparent;
+  font-size: 27px;
+  font-family:'Times New Roman', Times, serif;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgb(250, 179, 179);
+}
+.icons1 {
+  background-color: rgb(250, 179, 179);
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  border: none;
+  margin-right: 80px;
+}
+.contact {
+  margin-top: 12px;
+  background-color: rgb(250, 179, 179);
+  display: flex;
+  justify-content: space-between;
+}
+.contact p {
+  width: 100px;
+  background-color: rgb(250, 179, 179);
+  font-size: 13px;
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.contact:hover {
+  color: crimson;
+}
+.closing {
+  background-color: rgb(250, 179, 179);
+  align-items: center;
+  margin-top: 17px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+.closing:hover {
+  color: ghostwhite;
+}

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 247, 237);
+    
+}
+.navbarone {
+    border: 2px solid white;
+    border-radius: 20px;
+    display: block;
+    position: relative;
+    background-color: blanchedalmond ;
+    
+  }
+  .logo {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "calligraffitti", cursive;
+    background-color:blanchedalmond ;
+    border-radius: 12px;
+  }
+  .text-logo {
+    font-family: "Calligraffitti", cursive;
+    background-color: blanchedalmond;
+  }
+  .logobrand {
+    width: 70px;
+    background-color: azure;
+    border-radius: 20px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+font-family: cursive;
+    position: absolute;
+     width: 50%;
+    height: 550px;
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color:blanchedalmond;
+    border-color: peru;
+    border: 2px solid peru;
+    border-radius: 22px;
+  }
+ 
+  .photo{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+width: 70px;
+background-color: blanchedalmond;
+border-radius: 12px;
+
+  }
+  .slogan{
+    background-color: blanchedalmond;
+    display: inline-flex;
+    align-items: center;
+    font-family: cursive;
+    font-size: 30px;
+  }
+  .sign{
+    background-color:blanchedalmond   ; 
+    font-weight: bold;
+  }
+.forms{
+  display: flex;
+  flex-direction: column;
+  background-color:blanchedalmond;
+  width: 300px;
+  height: 250px;
+  font-size: 25px;
+  
+}
+.labell{
+  font-size: 25px;
+  background-color: blanchedalmond;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-family: cursive;
+  text-decoration:underline;
+}
+.inputt{
+  margin-top: 2px;
+
+}
+.buttonn{
+  height: 60px;
+  width: 110px;
+  border-color: peru;
+  transition-duration: 0.4s;
+ border-radius: 20px;
+ font-weight: bold;
+ font-size: larger;
+}
+.buttonn:hover {
+  background-color:indianred;
+  color: white;
+}
